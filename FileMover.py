@@ -1,4 +1,4 @@
-from watchdog.observer import observer
+from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 # pip install watchdog for above packages to work
 
